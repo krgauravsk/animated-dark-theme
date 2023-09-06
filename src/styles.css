@@ -1,0 +1,28 @@
+body.dark {
+  background-color: black;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: skyblue;
+}
+.dark .header {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.dark .App {
+  color: red;
+}
+.dark button {
+  color: white;
+}
+
+button {
+  font-size: 50px;
+}
